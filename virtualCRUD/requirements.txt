@@ -1,0 +1,6 @@
+requests
+django
+pymysql
+djangorestframework
+django-import-export
+geopy
