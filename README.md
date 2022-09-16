@@ -32,4 +32,10 @@ http://127.0.0.1:8000/import/
 
 Se utilizo la libreria geopy para obtener las distancias entre la latitud y longitud dadas en la URL y cada uno de los registros almacenados
 La información que se obtiene se guarda en una nueva lista y solose guardan aquellos registros que sean menores o iguales al radio proporcionado en la URL.
-Esto significa que esos registros almacenados o restaurantes estan dentro del radio proporcionado
+Esto significa que esos registros almacenados o restaurantes estan dentro del radio proporcionado.
+
+Este proyecto puede visulizar 2 APIRest.
+El primero muestra toda la informacion (Tarea 1) http://127.0.0.1:8000/api/restaurants/
+El segundo muestra la informacion de la url con parametros(Tarea 2) 127.0.0.1:8000/restaurants/statistics/latitude=NUMBER&longitude=NUMBER&radius=NUMBER
+
+por default la direccion http://127.0.0.1:8000/api/statistics/ contiene el ultimo registro que se guardo en la BD de los datos obtenidor por la URL con parametros
